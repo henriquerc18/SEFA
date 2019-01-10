@@ -1,0 +1,10 @@
+body {
+	background: -webkit-linear-gradient(AliceBlue, white); 
+	background: -moz-linear-gradient(AliceBlue, white); 
+	background: -o-linear-gradient(AliceBlue, white); 
+	background: white;	 
+	background-repeat: repeat; 
+	background-attachment: fixed; 
+	background-position: 50% 40%; 
+	margin: 30px 40px 10px 30px;
+}

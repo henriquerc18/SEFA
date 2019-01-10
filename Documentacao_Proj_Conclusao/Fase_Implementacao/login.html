@@ -1,0 +1,71 @@
+<!-- Escola Técnica Santo Inácio -->
+<!-- Feira de Ciências e Tecnologia/Projeto de Conclusão de Curso -->
+<!-- Sociedade Espírita Francisco de Assis (SEFA) -->
+<!-- Nome: Henrique Rosa Carvalho e Gabriel Suterio Pereira da Silva -->
+<!-- Data: 03/08/2018 -->
+
+
+
+
+<html>
+	<head>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<link rel="stylesheet" href="login.css">
+		<link rel="stylesheet" type="text/css" href="js/bootstrap.min.js" />
+		<link rel="stylesheet" href="styles.css">
+		
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+	
+	</head>
+	<body id="LoginForm">
+
+		<nav class="menu" style="top:200px;">		
+			<div id='cssmenu'>
+				<ul>
+				   <li><a href='SEFA.html'> Home </a></li>
+				   <li><a href='Historia.html'> História </a></li>
+				   <li><a href='Programacao.html'> Programação </a></li>
+				   <li><a href='Livros.html'> Livros </a></li>
+				   <li><a href='Contato_e_Localizacao.html'> Contato e Localização </a></li>
+				   <li><a href='Noticias.html'> Notícias </a></li>
+				   <li class='active'><a href='login.html'> Login </a></li>
+				</ul>
+			</div>
+		</nav>
+	
+		<img style="z-index: 2; position: relative; width:81.15%; height:200px;transform: translateX(11%)"; src="img/Logo_24_09.png" alt="Logo Franciscano" title="Logo Franciscano" />
+		<div class="container">
+			<h1 class="form-heading">  </h1>
+			<div class="login-form">
+			<div class="main-div">
+			<div class="panel">
+			<h2> Login </h2>
+			<p> Por favor, insira seu usuário e senha: </p>
+		</div>
+		<form id="Login">
+			<div class="form-group">
+				<input type="email" class="form-control" id="inputEmail" placeholder="Usuário">
+			</div>
+
+			<div class="form-group">
+				<input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+			</div>
+			<div class="forgot">
+				<a href="reset.html"> Esqueceu sua senha? </a>
+			</div>
+			<label> Selecione o tipo de usuário: <br>
+				<select name="aluno" id="aluno">
+					<option value="Aluno(a)" selected="selected"> Aluno(a) </option>
+					<option value="Admin"> Administrador </option>
+				</select> <br>
+			</label> 
+			<button type="submit" class="btn btn-primary">Login</button>
+		</form>
+    </div>
+	</body>
+</html>

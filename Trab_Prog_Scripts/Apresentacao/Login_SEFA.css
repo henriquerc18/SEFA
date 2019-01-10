@@ -1,0 +1,48 @@
+body { 
+	 background: -webkit-linear-gradient(#ffdb99, white); 
+	 background: -moz-linear-gradient(#ffdb99, white); 
+	 background: -o-linear-gradient(#ffdb99, white); 
+	 background: linear-gradient(#ffdb99, white);	 
+	 background-repeat: repeat; 
+	 background-attachment: fixed; 
+	 background-position: 50% 40%; 
+	 margin: 30px 40px 10px 30px; 
+}	 
+
+<?php
+	include 'global.php';
+?>
+	
+nav.menu {
+		background: ;
+		position: absolute;
+		z-index: 2;
+		width: 81.15%;
+		height: 50px;
+		top: 250px;
+		left: 120px;
+		text-align: center;
+}
+
+.form-control{
+	color:#555;
+	background-color:#fff;
+	background-image:none;
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin-left: 537.5px; 
+	width: 20%;
+	height: 40px;
+}
+
+.btn-primary {
+	color:#fff;
+	border-color:#2e6da4;
+	background: orange; 
+	width: 20%;
+	height: 40px;
+	margin-left: 537.5px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius:4px;
+}

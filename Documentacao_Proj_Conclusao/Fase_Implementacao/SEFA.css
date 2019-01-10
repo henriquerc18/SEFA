@@ -1,0 +1,100 @@
+ body { 
+	 background: -webkit-linear-gradient(#ffdb99, white); 
+	 background: -moz-linear-gradient(#ffdb99, white); 
+	 background: -o-linear-gradient(#ffdb99, white); 
+	 background: linear-gradient(#ffdb99, white);	 
+	 background-repeat: repeat; 
+	 background-attachment: fixed; 
+	 background-position: 50% 40%; 
+	 margin: 30px 40px 10px 30px; 
+ }	 
+	
+	.SEFA_Titulo {
+		font-family: Monotype Corsiva;
+		font-size: 80px;
+		left: 425px;
+		position: absolute;
+	    z-index: 2;
+		top: 35px;
+	}
+	
+	nav.menu {
+		background: ;
+		position: absolute;
+		z-index: 2;
+		width: 81.15%;
+		height: 50px;
+		top: 250px;
+		left: 120px;
+		text-align: center;
+	}
+	
+	table, td, tr {
+		border: inset 2px orange;
+		border-collapse: collapse;
+	}
+	
+	.formulario_contato {
+		font-family: times new roman;
+		font-size: 18px;
+		float: left;
+		height: 100px;
+		margin-top: -5px;
+		margin-left: 7%;
+		padding-left: 20px;
+	}
+	
+	#carousel {
+	  width:600px;
+	  height:330px;
+	  top: 10px;
+	  right: 305px;
+	  position:absolute;
+	  overflow:hidden;
+	}
+	
+	#carousel img {
+	  position:absolute;
+	  top:0; 
+	  left:0;
+	  max-width:100%;
+	  animation-name: cfFadeInOut;
+	  animation-timing-function: ease-in-out;
+	  animation-iteration-count: infinite;
+	  animation-duration: 18s;
+	}
+	
+	.container {
+		width:200px;
+		height: 300px;
+		overflow-y: scroll;
+		margin-top: 80px;
+	}
+	
+	.cha_primavera href{
+		position: relative; 
+		top: 20px; 
+		width: 30%; 
+		height: 50px;
+	}
+	
+	.cha_primavera img{
+		position: relative; 
+		top: 150px; 
+		width: 30%;
+		height: 200px; 
+		transform: translateX(40%);
+	}
+	
+	.cha_primavera p{
+		opacity: .7; 
+		text-align: center; 
+		font-family: arial; 
+		font-size: 20px; 
+		color: orange; 
+		background: white; 
+		margin-top: 120px; 
+		width: 30%; 
+		height: 30px; 
+		transform: translateX(40%);
+	}
